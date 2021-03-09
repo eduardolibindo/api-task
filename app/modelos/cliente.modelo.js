@@ -5,6 +5,7 @@ const Cliente = function (cliente) {
     this.email = cliente.email;
     this.name = cliente.name;
     this.active = cliente.active;
+    this.accessDate = cliente.accessDate;
 };
 
 Cliente.create = (newCliente, result) => {

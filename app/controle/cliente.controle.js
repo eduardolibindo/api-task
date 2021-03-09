@@ -13,7 +13,8 @@ exports.create = (req, res) => {
     const cliente = new Cliente({
         email: req.body.email,
         name: req.body.name,
-        active: req.body.active
+        active: req.body.active,
+        accessDate: req.body.accessDate
     });
 
     // Salva o Cliente no banco de dados
