@@ -4,7 +4,8 @@
   "description": "API para logs do servidor utilizando node.js, Esxpres.js e MySQL.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
   },
   "keywords": [
     "nodejs",
